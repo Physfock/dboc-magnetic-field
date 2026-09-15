@@ -2,7 +2,7 @@ Potential energy curves (PECs) and Diagonal Born–Oppenheimer Corrections (DBOC
 
 The repository contains a Podman container with modified ChronusQ code ([https://github.com/xsligroup/chronusq_public](https://github.com/xsligroup/chronusq_public)) that writes the GIAO one- and two-electron matrix elements required for the subsequent correlation calculations in HDF5 format. This data is then reused in PySCF to calculate the DBOC within the approximation discussed in the manuscript: [https://arxiv.org/pdf/2609.15327](https://arxiv.org/pdf/2609.15327)
 
-The instructions for patching ChronusQ and PySCF are also available at: [https://github.com/Physfock/cc_tesla](https://github.com/Physfock/cc_tesla)
+The instructions for patching ChronusQ and PySCF are also available at: [https://github.com/Physfock/cc_tesla](https://github.com/Physfock/cc_tesla). Sample output data obtained using this scheme is provided in DBOC_and_PEC.zip.
 
 The patched and built binaries are already pre-installed in this container.
 
