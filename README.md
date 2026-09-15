@@ -4,7 +4,7 @@ This repository provides a Podman container with a modified version of ChronusQ 
 
 The instructions for standalone patching ChronusQ and PySCF are also available at: [https://github.com/Physfock/cc_tesla](https://github.com/Physfock/cc_tesla). Sample output data obtained using this scheme is provided in DBOC_and_PEC.zip.
 
-The patched and built binaries are already pre-installed in this container.
+The patched and built binaries are already pre-installed in this container, allowing you to run test calculations immediately without building the packages from source.
 
 ## Instructions
 
