@@ -69,4 +69,18 @@ If you encounter permission issues or cannot see files in `/home/<your_username>
 ```bash
 sudo setenforce 0
 ```
+
+#### Run test
+
+
+```bash
+cd mnt
+```
+
+Put basis set unc-cc-pvtz.gbs and dboc_uhf_cisd.py to mnt dir
+
+```bash
+python dboc_uhf_cisd.py
+```
+
 </content>
