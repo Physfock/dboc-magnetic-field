@@ -83,9 +83,7 @@ Put basis set unc-cc-pvtz.gbs and dboc_uhf_cisd.py to mnt dir and run
 python dboc_uhf_cisd.py
 ```
 
-#### Description of example code
-
-#### DBOC in magnetic fields: UHF vs CISD
+#### 9. Description of example code
 
 Computes the diagonal Born–Oppenheimer correction (DBOC) and potential energy
 curves of H₂ and LiH in a magnetic field parallel to the molecular axis, at the
