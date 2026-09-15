@@ -77,7 +77,7 @@ sudo setenforce 0
 cd mnt
 ```
 
-Put basis set unc-cc-pvtz.gbs and dboc_uhf_cisd.py to mnt dir
+Put basis set unc-cc-pvtz.gbs and dboc_uhf_cisd.py to mnt dir and run
 
 ```bash
 python dboc_uhf_cisd.py
