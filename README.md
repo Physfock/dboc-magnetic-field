@@ -1,6 +1,6 @@
 Potential energy curves (PECs) and Diagonal Born–Oppenheimer Corrections (DBOC) as functions of magnetic field strength and internuclear distance for the H2, LiH, and HeH+ molecules.
 
-The repository contains a Podman container with modified ChronusQ code ([https://github.com/xsligroup/chronusq_public](https://github.com/xsligroup/chronusq_public)) that writes the GIAO one- and two-electron matrix elements required for the subsequent correlation calculations in HDF5 format. This data is then reused in PySCF to calculate the DBOC within the approximation discussed in the manuscript: [https://arxiv.org/pdf/2609.15327](https://arxiv.org/pdf/2609.15327) (see also [https://doi.org/10.1063/5.0269984](https://doi.org/10.1063/5.0269984))
+The repository contains a Podman container with modified ChronusQ code ([https://github.com/xsligroup/chronusq_public](https://github.com/xsligroup/chronusq_public)) that writes the GIAO based one- and two-electron matrix elements required for the subsequent correlation calculations in HDF5 format. This data is then reused in PySCF to calculate the DBOC within the approximation discussed in the manuscript: [https://arxiv.org/pdf/2609.15327](https://arxiv.org/pdf/2609.15327) (see also [https://doi.org/10.1063/5.0269984](https://doi.org/10.1063/5.0269984))
 
 The instructions for patching ChronusQ and PySCF are also available at: [https://github.com/Physfock/cc_tesla](https://github.com/Physfock/cc_tesla). Sample output data obtained using this scheme is provided in DBOC_and_PEC.zip.
 
