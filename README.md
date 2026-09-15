@@ -83,7 +83,7 @@ Put basis set unc-cc-pvtz.gbs and dboc_uhf_cisd.py to mnt dir and run
 python dboc_uhf_cisd.py
 ```
 
-### Description of example code
+#### Description of example code
 
 #### DBOC in magnetic fields: UHF vs CISD
 
