@@ -70,7 +70,7 @@ If you encounter permission issues or cannot see files in `/home/<your_username>
 sudo setenforce 0
 ```
 
-#### Run test
+#### 8. Run test
 
 
 ```bash
