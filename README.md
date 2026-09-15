@@ -1,8 +1,8 @@
 Potential energy curves (PECs) and Diagonal Born–Oppenheimer Corrections (DBOC) as functions of magnetic field strength and internuclear distance for the H2, LiH, and HeH+ molecules.
 
-This repository provides a Podman container with a modified version of ChronusQ ([https://github.com/xsligroup/chronusq_public](https://github.com/xsligroup/chronusq_public)). The code writes the GIAO-based one- and two-electron matrix elements required for subsequent correlation calculations to HDF5 format. This data is then reused in PySCF to calculate the DBOC within the approximation discussed in the manuscript: [https://arxiv.org/pdf/2609.15327](https://arxiv.org/pdf/2609.15327) (see also [https://doi.org/10.1063/5.0269984](https://doi.org/10.1063/5.0269984))
+This repository provides a Podman container with a modified version of ChronusQ ([https://github.com/xsligroup/chronusq_public](https://github.com/xsligroup/chronusq_public)). The code writes the GIAO-based one- and two-electron matrix elements required for subsequent correlation calculations to HDF5 format. This data is then reused in PySCF to calculate the DBOC within the approximation discussed in the manuscript: [https://arxiv.org/pdf/2609.15327](https://arxiv.org/pdf/2609.15327) (see also [https://doi.org/10.1063/5.0269984](https://doi.org/10.1063/5.0269984)). The patch of ChronusQ only adds the ability to export the GIAO-based matrix elements to HDF5 format, leaving the original codebase unchanged.
 
-The instructions for patching ChronusQ and PySCF are also available at: [https://github.com/Physfock/cc_tesla](https://github.com/Physfock/cc_tesla). Sample output data obtained using this scheme is provided in DBOC_and_PEC.zip.
+The instructions for standalone patching ChronusQ and PySCF are also available at: [https://github.com/Physfock/cc_tesla](https://github.com/Physfock/cc_tesla). Sample output data obtained using this scheme is provided in DBOC_and_PEC.zip.
 
 The patched and built binaries are already pre-installed in this container.
 
