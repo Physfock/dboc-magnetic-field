@@ -83,9 +83,9 @@ Put basis set unc-cc-pvtz.gbs and dboc_uhf_cisd.py to mnt dir and run
 python dboc_uhf_cisd.py
 ```
 
-#### Description of example code
+### Description of example code
 
-# DBOC in magnetic fields: UHF vs CISD
+#### DBOC in magnetic fields: UHF vs CISD
 
 Computes the diagonal Born–Oppenheimer correction (DBOC) and potential energy
 curves of H₂ and LiH in a magnetic field parallel to the molecular axis, at the
@@ -95,11 +95,11 @@ Integrals (GIAO basis) are generated with ChronusQ; UHF, CISD and wavefunction
 overlaps are computed with PySCF. The DBOC is obtained by finite differences of
 phase-corrected overlaps between the reference and displaced geometries.
 
-## Requirements
+#### Requirements
 
 ChronusQ, Python 3, PySCF, NumPy, SciPy, h5py, Matplotlib.
 
-## Usage
+#### Usage
 
 Set `MOLECULE`, `B_FIELD` and `BASIS_FILE` at the top of `dboc_uhf_cisd.py`, then:
 
@@ -107,7 +107,7 @@ Set `MOLECULE`, `B_FIELD` and `BASIS_FILE` at the top of `dboc_uhf_cisd.py`, the
 python dboc_uhf_cisd.py
 ```
 
-## Output
+#### Output
 
 - `DBOC_UHF.txt`, `DBOC_CISD.txt` — R (bohr), DBOC (hartree)
 - `PEC_UHF.txt`, `PEC_CISD.txt` — R (bohr), energy (hartree)
